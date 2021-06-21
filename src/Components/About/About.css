@@ -1,0 +1,19 @@
+.about{
+    place-items: center;
+    margin: 7rem 10rem;
+    font-family: "Ubuntu One",sans-serif;
+}
+.about h3{
+  border-bottom:4px solid black;
+  font-family: 'Mate SC', serif;
+}
+@media(max-width:380px){
+  .about{
+    margin: 3rem 0;
+  }
+}
+@media(max-width:1040px){
+  .about{
+    margin: 4rem 2rem;
+  }
+}
